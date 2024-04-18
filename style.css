@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #141414;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+    gap: 2vw;
+    margin-right: 10vw;
+}
+.blogging {
+    margin-right: 40vw;
+}
+.image {
+    position: absolute;
+    left: 60vw;
+    top: 5vw;
+}
+.passion {
+    position: absolute;
+    left: 20vw;
+    top: 7vw;
+}
+.find {
+    position: absolute;
+    left: 20vw;
+    top: 30vh;
+}
+button {
+    position: relative;
+    left: 21.5vw;
+    top: 45vh;
+    border-radius: 0.3vw;
+}
+.blg {
+    background-color: #016aea;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    border: solid 1px #016aea;
+    margin-right: 3vw;
+}
+.sub {
+    background-color: #01a77b;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    border: solid 1px #01a77b;
+}
+button:hover {
+    cursor: pointer;
+}
+.button {
+    background-color: #01a77b;
+    border: solid 1px #01a77b;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 0.2vw;
+}
+li:not(.button) {
+    margin-top: 1vh;
+}
+li:hover {
+    cursor: pointer;
+}
